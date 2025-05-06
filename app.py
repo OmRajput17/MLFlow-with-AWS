@@ -28,7 +28,7 @@ if __name__=="__main__":
     csv_url=(
         "https://raw.githubusercontent.com/mlflow/mlflow/master/tests/datasets/winequality-red.csv"
     )
-
+## try expect block
     try:
         data = pd.read_csv(csv_url, sep=';')
     except:
